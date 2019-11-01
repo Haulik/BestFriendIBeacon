@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30463C6A2362EBDA008A0672 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30463C692362EBDA008A0672 /* AppDelegate.swift */; };
+		30463C6C2362EBDA008A0672 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30463C6B2362EBDA008A0672 /* SceneDelegate.swift */; };
+		30463C6E2362EBDA008A0672 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30463C6D2362EBDA008A0672 /* ViewController.swift */; };
+		30463C712362EBDA008A0672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30463C6F2362EBDA008A0672 /* Main.storyboard */; };
+		30463C732362EBDF008A0672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30463C722362EBDF008A0672 /* Assets.xcassets */; };
+		30463C762362EBDF008A0672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30463C742362EBDF008A0672 /* LaunchScreen.storyboard */; };
+		30463C7E236307DC008A0672 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30463C7D236307DC008A0672 /* GoogleService-Info.plist */; };
+		40929D9BC7D2AAE61E1922D9 /* Pods_BestFriendIbeacon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE110ADAE6463193B9A81FF1 /* Pods_BestFriendIbeacon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30463C662362EBDA008A0672 /* BestFriendIbeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestFriendIbeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30463C692362EBDA008A0672 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30463C6B2362EBDA008A0672 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30463C6D2362EBDA008A0672 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30463C702362EBDA008A0672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30463C722362EBDF008A0672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30463C752362EBDF008A0672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30463C772362EBDF008A0672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30463C7D236307DC008A0672 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E2A4E5FB41065AEF365D193F /* Pods-BestFriendIbeacon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestFriendIbeacon.release.xcconfig"; path = "Target Support Files/Pods-BestFriendIbeacon/Pods-BestFriendIbeacon.release.xcconfig"; sourceTree = "<group>"; };
+		EE4738DA4612831AECCAF64C /* Pods-BestFriendIbeacon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestFriendIbeacon.debug.xcconfig"; path = "Target Support Files/Pods-BestFriendIbeacon/Pods-BestFriendIbeacon.debug.xcconfig"; sourceTree = "<group>"; };
+		FE110ADAE6463193B9A81FF1 /* Pods_BestFriendIbeacon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestFriendIbeacon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30463C632362EBDA008A0672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40929D9BC7D2AAE61E1922D9 /* Pods_BestFriendIbeacon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30463C5D2362EBDA008A0672 = {
+			isa = PBXGroup;
+			children = (
+				30463C682362EBDA008A0672 /* BestFriendIbeacon */,
+				30463C672362EBDA008A0672 /* Products */,
+				EA98AC0A8B44AAEA4674C42C /* Pods */,
+				49C38F6E8486DAE804054C80 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30463C672362EBDA008A0672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30463C662362EBDA008A0672 /* BestFriendIbeacon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30463C682362EBDA008A0672 /* BestFriendIbeacon */ = {
+			isa = PBXGroup;
+			children = (
+				30463C692362EBDA008A0672 /* AppDelegate.swift */,
+				30463C6B2362EBDA008A0672 /* SceneDelegate.swift */,
+				30463C6D2362EBDA008A0672 /* ViewController.swift */,
+				30463C6F2362EBDA008A0672 /* Main.storyboard */,
+				30463C722362EBDF008A0672 /* Assets.xcassets */,
+				30463C742362EBDF008A0672 /* LaunchScreen.storyboard */,
+				30463C772362EBDF008A0672 /* Info.plist */,
+				30463C7D236307DC008A0672 /* GoogleService-Info.plist */,
+			);
+			path = BestFriendIbeacon;
+			sourceTree = "<group>";
+		};
+		49C38F6E8486DAE804054C80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE110ADAE6463193B9A81FF1 /* Pods_BestFriendIbeacon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA98AC0A8B44AAEA4674C42C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE4738DA4612831AECCAF64C /* Pods-BestFriendIbeacon.debug.xcconfig */,
+				E2A4E5FB41065AEF365D193F /* Pods-BestFriendIbeacon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30463C652362EBDA008A0672 /* BestFriendIbeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30463C7A2362EBDF008A0672 /* Build configuration list for PBXNativeTarget "BestFriendIbeacon" */;
+			buildPhases = (
+				DD81B546C6A1FD4771F4C38D /* [CP] Check Pods Manifest.lock */,
+				30463C622362EBDA008A0672 /* Sources */,
+				30463C632362EBDA008A0672 /* Frameworks */,
+				30463C642362EBDA008A0672 /* Resources */,
+				5F4ADA07227CBB1D0C1479FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BestFriendIbeacon;
+			productName = BestFriendIbeacon;
+			productReference = 30463C662362EBDA008A0672 /* BestFriendIbeacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30463C5E2362EBDA008A0672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Grp. 5000";
+				TargetAttributes = {
+					30463C652362EBDA008A0672 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 30463C612362EBDA008A0672 /* Build configuration list for PBXProject "BestFriendIbeacon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30463C5D2362EBDA008A0672;
+			productRefGroup = 30463C672362EBDA008A0672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30463C652362EBDA008A0672 /* BestFriendIbeacon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30463C642362EBDA008A0672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30463C762362EBDF008A0672 /* LaunchScreen.storyboard in Resources */,
+				30463C7E236307DC008A0672 /* GoogleService-Info.plist in Resources */,
+				30463C732362EBDF008A0672 /* Assets.xcassets in Resources */,
+				30463C712362EBDA008A0672 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F4ADA07227CBB1D0C1479FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BestFriendIbeacon/Pods-BestFriendIbeacon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BestFriendIbeacon/Pods-BestFriendIbeacon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BestFriendIbeacon/Pods-BestFriendIbeacon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD81B546C6A1FD4771F4C38D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BestFriendIbeacon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30463C622362EBDA008A0672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30463C6E2362EBDA008A0672 /* ViewController.swift in Sources */,
+				30463C6A2362EBDA008A0672 /* AppDelegate.swift in Sources */,
+				30463C6C2362EBDA008A0672 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30463C6F2362EBDA008A0672 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30463C702362EBDA008A0672 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30463C742362EBDF008A0672 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30463C752362EBDF008A0672 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30463C782362EBDF008A0672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30463C792362EBDF008A0672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30463C7B2362EBDF008A0672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4738DA4612831AECCAF64C /* Pods-BestFriendIbeacon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FD2H4L9F6;
+				INFOPLIST_FILE = BestFriendIbeacon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Grp5000.BestFriendIbeacon;
+				PRODUCT_NAME = BestFriendIbeacon;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30463C7C2362EBDF008A0672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A4E5FB41065AEF365D193F /* Pods-BestFriendIbeacon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FD2H4L9F6;
+				INFOPLIST_FILE = BestFriendIbeacon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Grp5000.BestFriendIbeacon;
+				PRODUCT_NAME = BestFriendIbeacon;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30463C612362EBDA008A0672 /* Build configuration list for PBXProject "BestFriendIbeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30463C782362EBDF008A0672 /* Debug */,
+				30463C792362EBDF008A0672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30463C7A2362EBDF008A0672 /* Build configuration list for PBXNativeTarget "BestFriendIbeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30463C7B2362EBDF008A0672 /* Debug */,
+				30463C7C2362EBDF008A0672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30463C5E2362EBDA008A0672 /* Project object */;
+}
